@@ -5,7 +5,7 @@
         {name: "Project 1", icon: "fa-brands fa-linux", description:""},
         {name: "Project 2", icon: "", description: ""},
         {name: "Project 3", icon: "", description: ""},
-    ]
+    ];
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -67,9 +67,11 @@
             <p>Watch the video</p>
         </a>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-            <Step step={0}></Step>
-            <Step step={1}></Step>
-            <Step step={2}></Step>
+            <Step step={steps[0]}>
+                <p>Project 1 is just a placeholder for the description of stuff, things and stuff.</p>
+            </Step>
+            <Step step={steps[1]}></Step>
+            <Step step={steps[2]}></Step>
         </div>
 
     </section>
