@@ -168,7 +168,9 @@
         </div>
 
         <!-- Table of goodies -->
-        <h5>The <span class="text-violet-400"> Complete</span> Package</h5>
+        <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
+            The <span class="text-violet-400">Complete</span> Package
+        </h5>
         <div
             class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
         >
@@ -176,9 +178,10 @@
                 <thead class={"border-b border-solid border-slate-200  "}>
                     <tr class="">
                         <th />
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #1</th>
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
+                        <th class="whitespace-nowrap p-2 px-4">One dude</th>
+                        <th class="whitespace-nowrap p-2 px-4">Another dude</th>
+                        <th class="whitespace-nowrap p-2 px-4">The Last dude</th
+                        >
                         <th
                             class="bg-violet-700 text-white whitespace-nowrap p-4 px-8"
                             >Me</th
@@ -229,5 +232,11 @@
                 </tbody>
             </table>
         </div>
+
+        <!-- Table hint for overflow -->
+        <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
+            <p>Scroll to see more &rarr;</p>
+        </div>
+        <p class="mx-auto">So why not do stuff with me?</p>
     </section>
 </main>
